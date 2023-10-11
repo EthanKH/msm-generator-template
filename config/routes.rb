@@ -79,6 +79,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  
+  
   # Main Routes
   # rails generate draft:resource movie title:string year:integer duration:integer director_id:integer description:text image:string
   # rails generate draft:resource director name:string dob:date bio:text image:string
@@ -92,6 +94,14 @@ Rails.application.routes.draw do
   # rails db:rollback is the reverse of db:migrate, only most recent migration
   # rails generate draft:resource movie title:string description:text director_id:integer 
   # delete files from migrate folder before migrating to remove them
+  # rails console
+  # m = Movie.new
+  # m.save
+  # m.errors
+  # m.errors.full_messages
+
+
+
   # rails db:drop delete entire database
   # https://github.com/appdev-projects/msm-signin
 
